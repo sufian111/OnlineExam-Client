@@ -24,7 +24,7 @@ const Login = () => {
   const history = useHistory();
 
   const handleSubmit = () => {
-    history.push("/welcome");
+    history.push("/home");
   };
 
   const handleChange = (e) => {
