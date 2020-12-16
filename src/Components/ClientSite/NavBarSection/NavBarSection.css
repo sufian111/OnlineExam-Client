@@ -1,0 +1,14 @@
+.linkColor {
+  color: black !important;
+}
+.avatar {
+  width: 40px !important ;
+  height: 40px !important;
+
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.NavSection {
+  background-color: "red";
+}

@@ -1,6 +1,14 @@
-.sign-btn{
-    background-color: #D41434;
+body {
+  margin: 1em;
+  font: 1.2rem/1.4 Georgia, serif;
 }
-.sign-btn:hover{
-    background-color: #c7512d;
+.quote {
+  margin: 0;
+  width: 50%;
+  border-radius: 1em;
+  background-color: white;
+}
+.quote figcaption,
+.quote blockquote {
+  margin: 1em;
 }

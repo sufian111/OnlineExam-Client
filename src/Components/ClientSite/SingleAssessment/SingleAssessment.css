@@ -1,0 +1,32 @@
+.bg {
+  background-color: white;
+}
+.shadow {
+  box-shadow: 0 4px 13px rgba(0, 0, 0, 0.07) !important;
+}
+.lazy-image {
+  width: 100% !important;
+  height: unset !important;
+  position: unset !important;
+  object-fit: unset !important;
+}
+.card-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1e1e1e;
+}
+.className {
+  font-size: 16px;
+}
+
+.btn-rounded {
+  background: linear-gradient(
+    335.64deg,
+    #ff589b -19.22%,
+    #ff136f 118.87%
+  ) !important;
+  border-radius: 52px !important;
+  padding: 8px 25px !important;
+  color: #fff !important;
+}

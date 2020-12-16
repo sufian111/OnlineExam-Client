@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import img from "../../images/logo.png";
-import bg from "../../images/bg.jpg";
+import bg from "../../images/bg2.jpg";
 import "./Login.css";
 import { useHistory } from "react-router-dom";
 import { UserContext } from "../../App";
@@ -35,10 +35,10 @@ const Login = () => {
 
   return (
     <section style={style}>
-      <div className="container">
-        <div className="d-flex justify-content-center py-5">
+      <div className="container ">
+        <div className="d-flex justify-content-center align-items-center m-2 p-3">
           <div className=" mt-5 p-3 " style={{ backgroundColor: "white" }}>
-            <div className="row">
+            <div className="row d-flex align-items-center">
               <div className="col-md-8 col-sm-6 text-md-left text-center ">
                 <div style={{ fontSize: "20px", fontWeight: "bold" }}>
                   <h2>Know Thyself</h2>
@@ -49,11 +49,7 @@ const Login = () => {
                 </p>
               </div>
               <div className="col-md-4 text-md-left text-center ">
-                <img
-                  src={img}
-                  style={{ width: "100px", height: "100px" }}
-                  alt=""
-                />
+                <img src={img} style={{ width: "100px" }} alt="" />
               </div>
             </div>
 
@@ -146,7 +142,7 @@ const Login = () => {
                   {newUser ? (
                     <div>
                       <input
-                        className="form-control btn text-light sign-btn"
+                        className="form-control text-light btn btn-danger"
                         type="submit"
                         value="Sign Up"
                       />
@@ -154,7 +150,7 @@ const Login = () => {
                   ) : (
                     <div>
                       <input
-                        className="form-control text-light btn sign-btn"
+                        className="form-control text-light btn btn-danger"
                         type="submit"
                         onClick={handleSubmit}
                         value="Sign in"
@@ -165,6 +161,26 @@ const Login = () => {
               </div>
             </form>
           </div>
+        </div>
+        <div className="text-center d-flex justify-content-center">
+          <figure
+            style={{ color: "#810202" }}
+            className="quote text-center mt-5 p-1"
+          >
+            <blockquote>
+              <strong>
+                Knowing Self is an endless pursuit that gets you closer to
+                excellence
+              </strong>
+            </blockquote>
+            <figcaption>&mdash; Himanshu </figcaption>
+          </figure>
+        </div>
+        <div>
+          <p className="m-2" style={{ color: "white", textAlign: "center" }}>
+            {" "}
+            © 2020 Centre of Strategic Mindset, All Rights Reserved
+          </p>
         </div>
       </div>
     </section>
